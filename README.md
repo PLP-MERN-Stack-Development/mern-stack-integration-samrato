@@ -1,78 +1,96 @@
-# MERN Stack Integration Assignment
+# 📰 EduVides Blog Backend
 
-This assignment focuses on building a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that demonstrates seamless integration between front-end and back-end components.
+## 🔗 Live API
+**Backend Deployment:** [https://edu-vides-backend.vercel.app/](https://edu-vides-backend.vercel.app/)
 
-## Assignment Overview
+---
 
-You will build a blog application with the following features:
-1. RESTful API with Express.js and MongoDB
-2. React front-end with component architecture
-3. Full CRUD functionality for blog posts
-4. User authentication and authorization
-5. Advanced features like image uploads and comments
+## 🔄 Week 4: Deep Dive into MERN Stack Integration
 
-## Project Structure
+### 🚀 Objective
+This project demonstrates the integration of **MongoDB, Express.js, React.js, and Node.js (MERN)** to build a complete blog application with fully functional CRUD operations, category management, and API communication.
 
-```
-mern-blog/
-├── client/                 # React front-end
-│   ├── public/             # Static files
-│   ├── src/                # React source code
-│   │   ├── components/     # Reusable components
-│   │   ├── pages/          # Page components
-│   │   ├── hooks/          # Custom React hooks
-│   │   ├── services/       # API services
-│   │   ├── context/        # React context providers
-│   │   └── App.jsx         # Main application component
-│   └── package.json        # Client dependencies
-├── server/                 # Express.js back-end
-│   ├── config/             # Configuration files
-│   ├── controllers/        # Route controllers
-│   ├── models/             # Mongoose models
-│   ├── routes/             # API routes
-│   ├── middleware/         # Custom middleware
-│   ├── utils/              # Utility functions
-│   ├── server.js           # Main server file
-│   └── package.json        # Server dependencies
-└── README.md               # Project documentation
-```
+---
 
-## Getting Started
+## 📘 Project Overview
+The **EduVides Blog** is a full-stack MERN web application that allows users to:
+- Browse and read blog posts
+- Create, edit, and delete posts
+- Manage blog categories
+- Interact with a RESTful API built using Express.js and MongoDB
+- Experience smooth state management and responsive UI built with React and Tailwind CSS
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Follow the setup instructions in the `Week4-Assignment.md` file
-4. Complete the tasks outlined in the assignment
+---
 
-## Files Included
+## ⚙️ Tech Stack
 
-- `Week4-Assignment.md`: Detailed assignment instructions
-- Starter code for both client and server:
-  - Basic project structure
-  - Configuration files
-  - Sample models and components
+### 🖥️ Front-End
+- React.js (Vite)
+- React Router
+- Tailwind CSS
+- Axios (for API communication)
+- Context API & Hooks for state management
 
-## Requirements
+### ⚙️ Back-End
+- Node.js & Express.js
+- MongoDB & Mongoose
+- Joi / express-validator for validation
+- Cloudinary / Multer (for image uploads if implemented)
+- Vercel (for deployment)
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- npm or yarn
-- Git
+---
 
-## Submission
+## 📂 Folder Structure
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
 
-1. Complete both the client and server portions of the application
-2. Implement all required API endpoints
-3. Create the necessary React components and hooks
-4. Document your API and setup process in the README.md
-5. Include screenshots of your working application
 
-## Resources
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [Mongoose Documentation](https://mongoosejs.com/docs/) 
+
+---
+
+## 🧠 Features Implemented
+
+### 🧩 Back-End Features
+✅ RESTful API for blog operations:
+- `GET /api/posts` — Fetch all blog posts  
+- `GET /api/posts/:id` — Fetch single post  
+- `POST /api/posts` — Create a new post  
+- `PUT /api/posts/:id` — Update a post  
+- `DELETE /api/posts/:id` — Delete a post  
+- `GET /api/categories` — Get all categories  
+- `POST /api/categories` — Create a new category  
+
+✅ MongoDB connection via Mongoose  
+✅ Validation and error handling middleware  
+✅ CORS and dotenv configuration  
+✅ Hosted live on **Vercel**
+
+---
+
+### 🎨 Front-End Features
+✅ Responsive UI using Tailwind CSS  
+✅ CRUD functionality integrated with backend API  
+✅ Post listing, single post view, and create/edit forms  
+✅ Category filtering and search feature  
+✅ Theme support (light/dark mode optional)  
+✅ Loading and error state handling  
+
+---
+
+## 🧪 Expected Outcome
+- Full MERN integration (React + Express + MongoDB)
+- Functional blog platform with backend API
+- Clean, reusable React components
+- RESTful architecture with validation and error handling
+- Responsive and visually appealing design
+
+---
+
+## 🛠️ Setup Instructions
+
+### 🔧 Prerequisites
+- Node.js v18+  
+- MongoDB instance (local or cloud – e.g., MongoDB Atlas)
+
+### ⚙️ 1. Clone Repository
+
