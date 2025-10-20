@@ -1,7 +1,7 @@
 # 📰 EduVides Blog Backend
 
 ## 🔗 Live API
-**Backend Deployment:** [https://edu-vides-backend.vercel.app/](https://edu-vides-backend.vercel.app/)
+**Backend Deployment:** [https://edu-frontend-zeta.vercel.app/](https://ehttps://edu-frontend-zeta.vercel.app/)
 
 ---
 
